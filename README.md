@@ -1,5 +1,5 @@
 # Credit Risk Analysis
-
+![Credit Risk](https://media.marketrealist.com/brand-img/3s7UQMyYo/2160x1130/uploads/2019/10/bank-credit-risk.jpg)
 ## Overview of the Analysis
 Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. Therefore, different techniques will be needed to employ to train and evaluate models with unbalanced classes. Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, the data will be oversampled using the RandomOverSampler and SMOTE algorithm. In addition, the data will undergone undersampling using the ClusterCentroids algorithm. Then, a combination approach of over- and undersampling using the SMOTEENN algorithm will also be employed. Next, two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier will be compared to predict credit risk. The performance of these models will then be evaluated and based on the results, a writen recommendation on whether the machine learning models should be used to predict credit risk.
 
@@ -51,7 +51,7 @@ Credit risk is an inherently unbalanced classification problem, as good loans ea
 ### Balanced Random Forest Classifier
 - The balanced accuracy score for **`BalancedRandomForestClassifier`** is 78.9%.
 
-![balanced_random_forest_classifier_accuracy.png](balanced_random_forest_classifier_accuracy.png)
+![balanced_random_forest_classifier_accuracy.png](https://github.com/kntln/Credit_Risk_Analysis/blob/main/figures/balanced_random_forest_classifier_accuracy.png)
 
 - For High Risk, the precision rate is 3%, the recall rate is 70% and an F1 score of 6%.
 - For Low Risk, the precision rate is 100%, the recall rate is 87% and an F1 score of 93%.
